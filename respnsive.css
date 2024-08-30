@@ -1,0 +1,124 @@
+/* share responsive */
+@media screen and (max-width: 576px) {
+  header,
+  section,
+  footer {
+    margin: 0 24px;
+  }
+}
+section {
+  margin-top: 66px;
+}
+/* nav */
+@media screen and (max-width: 576px) {
+  nav {
+    margin: 20px 0;
+  }
+  nav ul {
+    display: none;
+  }
+  nav .menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero {
+    flex-direction: column;
+    gap: 48px;
+  }
+  .hero .content,
+  .hero .image {
+    width: 100%;
+  }
+  .hero .content h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .hero .image .video {
+    left: 12px;
+    bottom: 203px;
+  }
+  .hero .image .workout {
+    right: -20px;
+    top: 47px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .change {
+    margin-top: 0;
+  }
+  .change .carts {
+    margin-top: 58px;
+    flex-direction: column;
+    gap: 36px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .run {
+    padding: 33px;
+    padding: 41px;
+    flex-direction: column;
+    gap: 31px;
+  }
+  .run .content,
+  .run .image {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bmi-calculator {
+    padding: 34px 20px 43px;
+    margin-top: 32px;
+  }
+  .bmi-calculator .bmi-table {
+    grid-column: 12 span;
+  }
+  .bmi-calculator .bmi-content {
+    margin-top: 42px;
+    grid-column: 12 span;
+  }
+  .bmi-calculator .bmi-content .input input {
+    width: 100%;
+  }
+  .bmi-calculator .bmi-content .input select {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .triners {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .service .items {
+    margin-top: 30px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  footer {
+    margin-top: 66px;
+  }
+  footer .content {
+    margin: 0 20px;
+    padding: 40px 0 2px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  footer .content .fitness {
+    grid-column: 12 span;
+  }
+  footer .content .start {
+    grid-column: 12 span;
+  }
+  footer .content .end {
+    grid-column: 12 span;
+  }
+}

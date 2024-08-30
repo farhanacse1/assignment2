@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/miama");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+body {
+  background-color: black;
+}
+/* share  */
+header,
+section {
+  margin: 0 130px;
+}
+section {
+  margin-top: 100px;
+}
+.btn-primary {
+  padding: 16px 40px;
+  background-color: #e6533c;
+  border-radius: 42px;
+  border: none;
+}
+.btn-second {
+  padding: 16px 40px;
+  background-color: transparent;
+  border-radius: 42px;
+  border: 1px solid #ffffff;
+}
+.title {
+  font-weight: 900;
+  font-size: 48px;
+  margin-bottom: 14px;
+}
+.description {
+  color: #ffffff80;
+  font-size: 14px;
+}
+.text-center {
+  text-align: center;
+}
+/* nav  */
+nav {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .fitness {
+  font-weight: 800;
+  font-size: 36px;
+  color: #e6533c;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  list-style-type: none;
+  font-size: 18px;
+  color: #ffffff;
+  border: 1px solid #ffffff1a;
+  padding: 4px;
+  border-radius: 46px;
+}
+nav ul .last-child {
+  margin-right: 24px;
+}
+nav ul .action {
+  padding: 8px 20px;
+  background-color: #e6533c;
+  border-radius: 46px;
+}
+nav .menu {
+  display: none;
+}
+
+/* hero  */
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 87px;
+}
+.hero .content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.hero .content h1 {
+  font-weight: 800;
+  font-size: 78px;
+  line-height: 78px;
+}
+.hero .image {
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+.hero .button {
+  display: flex;
+  gap: 14px;
+}
+.shape {
+  background-color: transparent;
+  font-size: 78px;
+  font-family: "Miama", sans-serif;
+}
+.hero .image .video {
+  position: absolute;
+  background-color: #3030308a;
+  backdrop-filter: blur(20);
+  width: 206px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 12px;
+  bottom: 63px;
+  left: -30px;
+}
+.video .circle {
+  width: 30px;
+  height: 30px;
+  background-color: #e6533c;
+  border-radius: 50%;
+}
+.hero .image .video h6 {
+  font-weight: 900;
+  font-size: 24px;
+}
+.hero .image .video p {
+  color: #efede8a6;
+}
+.hero .image .workout {
+  position: absolute;
+  top: 157px;
+  right: -74px;
+  width: 193px;
+  height: 98px;
+  border-radius: 12px;
+  background-color: #ffffff1a;
+  backdrop-filter: blur(20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero .image .workout h6 {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+/* Change */
+
+.change .carts {
+  margin-top: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.change .carts .image {
+  text-align: center;
+}
+.change .carts img {
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.change .carts h6 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 6px;
+  text-align: center;
+}
+.change .carts p {
+  color: #ffffff80;
+  text-align: center;
+}
+
+/* run */
+.run {
+  padding: 41px;
+  display: flex;
+  align-items: center;
+  background-color: #222222;
+  border-radius: 18px;
+}
+.run .content {
+  width: 50%;
+}
+.run .content button {
+  width: 224px;
+  height: 54px;
+  margin-top: 34px;
+}
+.run .image {
+  width: 50%;
+}
+.run .image img {
+  width: 100%;
+  border-radius: 18px;
+}
+
+/* bmi */
+.bmi {
+  margin: 64px 0 0;
+}
+.bmi-calculator {
+  background-color: #222222;
+  padding: 52px 130px;
+  margin-top: 88px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.bmi-calculator h5 {
+  font-weight: 900;
+  font-size: 28px;
+}
+.bmi-calculator .bmi-table {
+  grid-column: 5 span;
+}
+.bmi-calculator .bmi-table table {
+  margin-top: 52px;
+}
+.bmi-calculator .bmi-table td,
+th {
+  padding: 15px 18px;
+  border: 1px solid #ffffff1a;
+  color: #ffffff80;
+}
+.bmi-calculator .bmi-table th {
+  text-align: left;
+  color: #ffffff;
+  font-weight: 500;
+}
+.bmi-calculator .bmi-content {
+  grid-column: 7 span;
+}
+.bmi-calculator .bmi-content p {
+  margin: 14px 0 34px;
+}
+.bmi-calculator .bmi-content .input {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  color: #ffffff99;
+}
+.bmi-calculator .bmi-content .input input {
+  grid-column: 1 span;
+  padding: 12px;
+  background-color: #ffffff1a;
+  border-radius: 8px;
+  color: #ffffff99;
+}
+.bmi-calculator .bmi-content .input select {
+  background-color: #ffffff1a;
+  border-radius: 8px;
+}
+.bmi-calculator .bmi-content .input .last-item {
+  grid-column: 2 span;
+  padding: 12px;
+  background-color: #ffffff1a;
+  border-radius: 8px;
+  color: #ffffff99;
+}
+.bmi-calculator button {
+  margin-top: 34px;
+  width: 224px;
+}
+
+/* meet  */
+.triners {
+  margin-top: 60px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: #ffffff1a;
+}
+.triners img {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+}
+.triner {
+  position: relative;
+}
+.triners .content {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+.triners .content h6 {
+  font-weight: 800;
+  font-size: 20px;
+}
+.triner .content p {
+  color: #ffffff80;
+}
+
+.service .items {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.service .items .item {
+  box-shadow: 2px 2px 2px 2px #888888;
+}
+.service .items h1 {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+.service .items p {
+  color: #ffffff80;
+}
+/* footer */
+footer {
+  background-color: #ffffff1a;
+  margin-top: 88px;
+}
+footer .content {
+  margin: 0 130px;
+  padding: 66px 0 35px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+footer .content .fitness {
+  grid-column: 6 span;
+  margin-right: 100px;
+}
+footer .content .fitness h3 {
+  font-weight: 800;
+  font-size: 70px;
+  color: #e6533c;
+  margin-bottom: 20px;
+}
+footer .content .start {
+  grid-column: 3 span;
+}
+footer .content .end {
+  grid-column: 3 span;
+}
+footer .content h6 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+footer .content p {
+  color: #ffffff80;
+  margin-bottom: 20px;
+}
+.copy-right {
+  margin-top: 60px;
+  grid-column: 12 span;
+}
+.copy-right p {
+  text-align: center;
+  margin: 36px 0;
+  font-size: 20px;
+  color: #ffffff80;
+}
